@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        COMP804 Assessment Task 3: Assignment 1 - Jack Ross, 3283999
+    </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <script src="scripts.js"></script>
+    <!-- Task 1 -->
+    <div id="task1" class="taskDiv">
+        <div class="taskContent">
+            <h1>3283999 Jack Ross</h1>
+            <h2>COMP804: Web Security</h2>
+            <h3>Assessment Task 3: Assignment 1, Due Week 5, March 4, 2024</h3>
+        </div>
+    </div>
+    <br>
+    <br>
+    <!-- Task 2 -->
+    <!-- Information taken from UOW Key Dates, Trimester 1 2024:  https://www.uow.edu.au/student/dates/ -->
+    <div id="task2" class="taskDiv">
+        <h2>Task 2</h2>
+        <table id="task2Table">
+            <tr class="headerRow">
+                <th>Activity</th>
+                <th>Date</th>
+            </tr>
+            <tr class="oddRow">
+                <td>First day to enrol for re-enrolling (continuing students)</td>
+                <td>20 Nov 2023</td>
+            </tr>
+            <tr class="evenRow">
+                <td>First day to enrol for new students (commencing students)</td>
+                <td>04 Dec 2023</td>
+            </tr>
+            <tr class="oddRow">
+                <td>Orientation for new students (Sydney)</td>
+                <td>29 Jan 2024</td>
+            </tr>
+            <tr class="evenRow">
+                <td>Orientation for new students (Wollongong)</td>
+                <td>30 Jan 2024</td>
+            </tr>
+            <tr class="oddRow">
+                <td>Orientation for new students (Online)</td>
+                <td>31 Jan 2024</td>
+            </tr>
+            <tr class="evenRow">
+                <td>Lectures commence</td>
+                <td>05 Feb - 12 Apr 2024</td>
+            </tr>
+            <tr class="oddRow">
+                <td>Last day to enrol / add subjects yourself</td>
+                <td>16 Feb 2024</td>
+            </tr>
+            <tr class="evenRow">
+                <td>Last day to enrol / add subjects with Head of Students approval</td>
+                <td>23 Feb 2024</td>
+            </tr>
+            <tr class="oddRow">
+                <td>
+                    <b>CENSUS DATE</b>
+                    <br><br>
+                    Fees due<br>
+                    Last day to withdraw from subject/s without paying for them<br>
+                    HECS / FEE HELP debt reporting date<br>
+                    Last day to change HECS / FEE HELP billing option<br><br>                
+                    <a href="https://uowedu.service-now.com/kb?id=kb_article_view&sysparm_article=KB0012659">Learn more about Census date ></a>
+                </td>
+                <td>26 Feb 2024</td>
+            </tr>
+            <tr class="evenRow">
+                <td>Student Services and Amenities Fees due</td>
+                <td>27 Feb 2024</td>
+            </tr>
+            <tr class="oddRow">
+                <td>
+                    Last day to withdraw without academic penalty - subject deleted from record
+
+                    Fail grade recorded if subject withdrawn after this date
+                </td>
+                <td>15 Mar 2024</td>
+            </tr>
+            <tr class="evenRow">
+                <td>Study recess (1 week)</td>
+                <td>15 Apr - 19 Apr 2024</td>
+            </tr>
+            <tr class="oddRow">
+                <td>Exams (1 week)</td>
+                <td>20 Apr - 26 Apr 2024</td>
+            </tr>
+            <tr class="evenRow">
+                <td>End of session break commences</td>
+                <td>27 Apr 2024</td>
+            </tr>
+            <tr class="oddRow">
+                <td>Release of results</td>
+                <td>08 May 2024</td>
+            </tr>
+            <tr class="evenRow">
+                <td>Supplementary and deferred exam period</td>
+                <td>14 May - 17 May 2024</td>
+            </tr>
+        </table>
+    </div>
+    <br>
+    <br>
+    <!-- Task 3 -->
+    <div id="task3" class="taskDiv">
+        <h2>Task 3</h2>
+        <table id="task3Table">
+            <tr>
+                <th>Name</th>
+                <th>Web Attacks</th>
+            </tr>
+            <tr class ="oddRow">
+                <td class="attackName">
+                    Distributed/Denial of Service Attacks (DoS/DDoS)
+                    <br><br>
+                    <img class="attackImage" src="dos.png" />
+                </td>
+                <td>
+                    A Denial of Service service attack is a type of attack that targets a service or network using large amounts of malicious requests in order to overwhelm server resources, disrupting regular traffic. This can prevent users from accessing functionality such as general web traffic, email services and more.
+                    <br>
+                    A Distributed Denial of Service attack utilises a large number of internet connected devices to increase the amount of requests on a target network. These requests are often sent from systems infected with malware and are referred to as 'botnets' - bot network
+                    <br><br>
+                    <b>Source: </b><a href="https://www.cloudflare.com/learning/ddos/glossary/denial-of-service/">https//www.cloudflare.com/learning/ddos/glossary/denial-of-service/</a>
+                </td>
+            </tr>
+            <tr class="evenRow">
+                <td class="attackName">
+                    Man in the Middle attacks
+                    <br><br>
+                    <img class="attackImage" src="mitm.png" />
+                </td>
+                <td>
+                    Man in the Middle (MitM) attacks are a type of attack where communication between two devices is intercepted, and potentially altered. Attacks can be passive, where the attacker simply records communication between two networks, such as to steal login information between a user and server, or can involve the attacker altering information, allowing attackers to alter information or setup new connections, such as sending users to incorrect websites.
+                    <br>
+                    To help protect against these attacks, encryption protocols such as TLS are recommended.
+                    <br><br>
+                    <b>Source: </b><a href="https://www.csoonline.com/article/566905/man-in-the-middle-attack-definition-and-examples.html">https://www.csoonline.com/article/566905/man-in-the-middle-attack-definition-and-examples.html</a>
+                </td>
+            </tr>
+            <tr class ="oddRow">
+                <td class="attackName">
+                    Cross Site Scripting attacks
+                     <br><br>
+                     <img class="attackImage" src="xss.png" />
+                </td>
+                <td>
+                    Cross Site Scripting (XSS) are a type of attack where malicious scripts are injected into a trusted website. User browsers trust the source of a page/scripts and cannot inherently identify that the scripts come from a malicious source. Due to this trust, the injected script also has access to cookies and session tokens held by the browser.
+                    <br><br>
+                    <b>Source: </b><a href="https://owasp.org/www-community/attacks/xss/">https://owasp.org/www-community/attacks/xss/</a>
+                </td>
+            </tr>
+            <tr class="evenRow">
+                <td class="attackName">
+                    SQL Injection Attacks
+                    <br><br>
+                    <img class="attackImage" src="sql.jpg" /></td>
+                <td>
+                    SQL Injection attacks are attempts to interfere with queries web applications make to their databases. The intended result is to obtain information that otherwise would not be shown to a user, such as login credentials, sensitive information, or application data. Attacks can also attempt to modify or delete information in the database.
+                    <br>
+                    A simple example of this is inputting SQL queries into form text fields that the web application uses as input to form SQL queries. Without checking or sanitizing the user data, SQL commands can be directly submitted by attackers.
+                    <br><br>
+                    <b>Source: </b><a href="https://portswigger.net/web-security/sql-injection">https://portswigger.net/web-security/sql-injection</a>
+                </td>
+            </tr>
+            <tr class ="oddRow">
+                <td class="attackName">
+                    Brute Force Attacks
+                    <br><br>
+                    <img class="attackImage" src="bruteforce.avif" />
+                </td>
+                <td>
+                    Brute Force attacks are when an attacker attempts to gain access to a system by repeatedly trying login credentials against a web application. Typically automated, these attacks can be as simple as trying to login with a known legitimate username or email for a service, and trying every possible password combination until the login attempt succeeds.
+                    <br>
+                    Multifactor Authentication and limiting failed attempts are common ways to prevent these types of attacks from succeeding.
+                    <br><br>
+                    <b>Source: </b><a href="https://www.fortinet.com/resources/cyberglossary/brute-force-attack">https://www.fortinet.com/resources/cyberglossary/brute-force-attack</a>
+                </td>
+            </tr>
+            <tr class="evenRow">
+                <td class="attackName">
+                    Dictionary Attacks
+                    <br><br>
+                    <!-- I had to use this image once I saw it! -->
+                    <img class="attackImage" src="dictAttack.jpg" />
+                </td>
+                <td>
+                    Related to Brute Force attacks, Dictionary attacks use commonly known passwords, words and character combinations. Whereas in a brute force attack, scripts use all possible combinations in sequence to attempt to login to a web application, dictionary attacks attempt to cut down on the amount of login attempts, and therefore time taken, to penetrate a system.
+                    <br>
+                    To help avoid being vulnerable to dictionary attacks, web applications often enforce rules such as using capital letters, symbols, and numbers in user passwords, and it is encouraged not to use terms such as 'password' or sequences like 'abcd123'.
+                    <br><br>
+                    <b>Source: </b><a href="https://www.kaspersky.com/resource-center/definitions/what-is-a-dictionary-attack">https://www.kaspersky.com/resource-center/definitions/what-is-a-dictionary-attack</a>
+                </td>
+            </tr>
+            <tr class ="oddRow">
+                <td class="attackName">
+                    Phishing Attacks
+                    <br><br>
+                    <img class="attackImage" src="phishing.png" />
+                </td>
+                <td>
+                    Phishing is when attackers contact users, commonly through email or sms, pretending to be from a trusted source. Common examples are recieving emails that are formatted identically to banking emails. These emails often direct users to fraudelent websites posing as the sender and attempt to get users to download malware or steal login information.
+                    <br>
+                    Phishing attacks can be broad, by sending emails to large numbers of users, or targeted, known as Spear-Phishing, using known information about targets to customise phishing attacks to appear more authentic.
+                    <br><br>
+                    <b>Source: </b><a href="https://www.cyber.gov.au/learn-basics/explore-basics/watch-out-threats/phishing-emails-and-texts">https://www.cyber.gov.au/learn-basics/explore-basics/watch-out-threats/phishing-emails-and-texts</a>
+                </td>
+            </tr>
+            <tr class="evenRow">
+                <td class="attackName">
+                    DNS Poisoning
+                    <br><br>
+                    <img class="attackImage" src="dnsPoison.webp" />
+                </td>
+                <td>
+                    In DNS Poisoning attacks, attackers attempt to insert fake information on DNS servers. When users try to navigate to a website, the address is resolved to an IP address from a trusted source. If attackers have managed to insert fake information into a DNS server, large numbers of users can be directed to fraudulent websites, leading to credential theft, malware and more.
+                    <br><br>
+                    <b>Source: </b><a href="https://www.fortinet.com/resources/cyberglossary/dns-poisoning">https://www.fortinet.com/resources/cyberglossary/dns-poisoning</a>
+                </td>
+            </tr>
+            <tr class ="oddRow">
+                <td class="attackName">
+                    Ransomware
+                    <br><br>
+                    <img class="attackImage" src="ransomware.png" />
+                </td>
+                <td>
+                    Ransomware is a category of malware that locks users out of systems and files. This is commonly done by encryipting files on a user's system so that they cannot be accessed. Attackers then demand that users pay to unencrypt the files and regain access.
+                    <br><br>
+                    <b>Source: </b><a href="https://www.cyber.gov.au/threats/types-threats/ransomware">https://www.cyber.gov.au/threats/types-threats/ransomware</a>
+                </td>
+            </tr>
+            <tr class="evenRow">
+                <td class="attackName">
+                    Session Hijacking
+                    <br><br>
+                    <img class="attackImage" src="sessionHijacking.png" />
+                </td>
+                <td>
+                    When users login to a web application, a session cookie is generated is created to keep the user's browser authenticated, keeping the user logged in until the user manually logs out, the cookie times out, or other action is taken to terminate the session. Session hijacking is when an attacker is able to gain access to the session cookie to take control of the users session.
+                    <br>
+                    Depending on the type of web application, attacks can steal user information, money, or more.
+                    <br><br>
+                    <b>Source: </b><a href="https://us.norton.com/blog/id-theft/session-hijacking">https://us.norton.com/blog/id-theft/session-hijacking</a>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <br>
+    <br>
+    <!-- Task 4 -->
+    <div id="task4">
+        <h2>Task 4</h2>
+        <button id="btnCat" onclick="animalClicked(cat)">Cat</button>
+        <button id="btnDog" onclick="animalClicked(dog)">Dog</button>
+        <button id="btnFrog" onclick="animalClicked(frog)">Frog</button>
+        <br>
+        <br>
+        <input id="task4Text" type="text">
+        <br>
+        <br>
+        <span id="task4Label"></span>
+        <br>
+        <br>
+        <img id="task4Image" src="" ="sdfsdf"/>
+        <br>
+        <span id="task4ImageSource"></span>
+    </div>
+</body>
+
+</html>

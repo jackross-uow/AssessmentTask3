@@ -1,0 +1,78 @@
+#task1 .taskContent {
+    width: fit-content;
+    padding: 10px;
+    background-color: lightgray;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    border-style: solid;
+}
+
+#task2Table {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-style: none;
+    border-spacing: 0px;
+}
+
+#task2Table th,
+#task2Table td {
+    border-width: 2px;
+    border-style: dotted;
+    color: darkorange;
+    padding: 5px;
+}
+
+#task2Table th .headerRow {
+    background-color: white;
+    color: goldenrod;
+}
+
+#task2Table .oddRow {
+    background-color: lightgoldenrodyellow;
+}
+
+#task2Table .evenRow {
+    background-color: yellow;
+}
+
+#task3Table {
+    width: 1024px;
+    border-spacing: 0px;
+}
+
+#task3Table th,
+#task3Table td { 
+    padding: 5px;
+    border-spacing: 0px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: antiquewhite;
+}
+
+#task3Table th {
+    background-color: darkgray;
+}
+
+#task3Table .evenRow {
+    background-color: grey;
+}
+
+#task3Table .oddRow {
+    background-color: lightblue;
+}
+
+#task3Table .attackName {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#task3Table .attackImage {
+    width: 150px;
+}
+
+#task4 button:focus {
+    background-color: slategray;
+}
+
+#task4Image {
+    width: 500px;
+}
